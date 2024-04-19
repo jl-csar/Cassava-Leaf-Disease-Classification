@@ -1,8 +1,19 @@
 # Cassava-Leaf-Disease-Classification
 
-This is not how we properly write README.md files, but please forgive it.
+### Badges:
 
-The goal of the competition was to train a model capable of classifying images of cassava leaves with certain types of diseases.
+[![Python](https://img.shields.io/badge/Python-3.8-blue.svg)](https://www.python.org/)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange.svg)](https://www.tensorflow.org/)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+
+### Description
+
+The goal of the competition is to train a model capable of classifying images of cassava leaves with certain types of diseases. As the second-largest provider of carbohydrates in Africa, cassava is a key food security crop grown by smallholder farmers because it can withstand harsh conditions. At least 80% of household farms in Sub-Saharan Africa grow this starchy root, but viral diseases are major sources of poor yields. Existing methods of disease detection require farmers to solicit the help of government-funded agricultural experts to visually inspect and diagnose the plants. This suffers from being labor-intensive, low-supply and costly. With AI, farmers may be able to quickly identify diseased plants, potentially saving their crops before they inflict irreparable damage.
+
+The dataset and competition is from Kaggle: https://www.kaggle.com/competitions/cassava-leaf-disease-classification . 
+
+
 
 I trained a very simple Convolutional Neural Network for this in 200 epochs. I didn't submit a transfer learning-based model, but rather a CNN from scratch yet it achieved a test data private score of 0.8315. The top scorer is 0.9132. The architecture is only 7 conv layers deep with data augmentation.
 
