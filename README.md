@@ -22,4 +22,10 @@ I trained a very simple Convolutional Neural Network in 200 epochs. The CNN was 
 
 I tried lots of hyperparameter tuning but came upon with this architecture. I do think that data augmentation helped the model learn more features. Coupling it with the regularizing dropout helps prevent the model from overfitting. I didn't submit a transfer learning-based model yet it achieved a test data private score of 0.8315. The top scorer is 0.9132. 
 
+<br>
+
+### Results
+
+As early as 100-125 epochs, the model started to plateau around a validation accuracy of 0.81. This is most probably due to the model not being flexible or complex enough with only 237,573 trainable parameters, however, I didn't try to increase the layers or parameters and see the difference in improvement.
+
 One thing I found interesting. I initially started using GPUs. When I started fitting the model, the RAM shoots up. To solve this memory constraint, I divided the train dataset into multiple sub-dataset objects, and fit the model one sub-dataset object at a time. After fitting all the sub-dataset objects, I considered it as one epoch. The model did not overfit. However, when I got the chance to use a TPU, the RAM GB was pretty high enough to prevent this memory constraint. So I fit the model to the entire dataset, but the model, surprisingly, was overfitting. I made sure everything was constant and unchanged; I only changed the accelerator and how the dataset object is fed to the model training. I think the difference has something to do with calling model.fit() on every sub-dataset object.
