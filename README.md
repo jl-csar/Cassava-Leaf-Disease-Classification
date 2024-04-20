@@ -10,11 +10,11 @@
 
 ### Table of Contents
 
-- [Description](https://github.com/jl-csar/Cassava-Leaf-Disease-Classification/edit/main/README.md#description)
-- [Model Architecture](https://github.com/jl-csar/Cassava-Leaf-Disease-Classification/edit/main/README.md#model-architecture)
-- [Results](https://github.com/jl-csar/Cassava-Leaf-Disease-Classification/edit/main/README.md#results)
-- [Notes](https://github.com/jl-csar/Cassava-Leaf-Disease-Classification/edit/main/README.md#notes)
-- [License](https://github.com/jl-csar/Cassava-Leaf-Disease-Classification/edit/main/README.md#license)
+- [Description](https://github.com/jl-csar/Cassava-Leaf-Disease-Classification/blob/main/README.md#description)
+- [Model Architecture](https://github.com/jl-csar/Cassava-Leaf-Disease-Classification/blob/main/README.md#model-architecture)
+- [Results](https://github.com/jl-csar/Cassava-Leaf-Disease-Classification/blob/main/README.md#results)
+- [Notes](https://github.com/jl-csar/Cassava-Leaf-Disease-Classification/blob/main/README.md#notes)
+- [License](https://github.com/jl-csar/Cassava-Leaf-Disease-Classification/blob/main/README.md#license)
 
 <br>
 
