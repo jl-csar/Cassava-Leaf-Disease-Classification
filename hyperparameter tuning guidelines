@@ -1,0 +1,24 @@
+Hyperparameters
+
+1. number of filters
+-interpretation: more filters, more information/parameter
+
+2. number of conv layers
+
+3. filter size (convolution)
+-interpretation: larger filter, more information/parameter
+
+4. filter size (max pooling)
+-interpretation: smaller filter, more information/parameter
+
+5. stride (convolution)
+-interpretation: smaller stride, more information/parameter
+
+6. stride (max pooling)
+-interpretation: smaller stride, more information/parameter
+
+7. padding (convolution, max pooling)
+-interpretation: larger padding, more information/parameter
+
+8. batch size
+-interpretation: larger batch size, more stable validation loss graph
