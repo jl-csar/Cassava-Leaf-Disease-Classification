@@ -8,21 +8,20 @@
 
 <br>
 
-### Table of Contents
-
-- [Description](https://github.com/jl-csar/Cassava-Leaf-Disease-Classification/blob/main/README.md#description)
-- [Model Architecture](https://github.com/jl-csar/Cassava-Leaf-Disease-Classification/blob/main/README.md#model-architecture)
-- [Results](https://github.com/jl-csar/Cassava-Leaf-Disease-Classification/blob/main/README.md#results)
-- [Notes](https://github.com/jl-csar/Cassava-Leaf-Disease-Classification/blob/main/README.md#notes)
-- [License](https://github.com/jl-csar/Cassava-Leaf-Disease-Classification/blob/main/README.md#license)
-
-<br>
-
 ### Description
 
 The goal of the competition is to train a model capable of classifying images of cassava leaves with certain types of diseases. As the second-largest provider of carbohydrates in Africa, cassava is a key food security crop grown by smallholder farmers because it can withstand harsh conditions. At least 80% of household farms in Sub-Saharan Africa grow this starchy root, but viral diseases are major sources of poor yields. Existing methods of disease detection require farmers to solicit the help of government-funded agricultural experts to visually inspect and diagnose the plants. This suffers from being labor-intensive, low-supply and costly. With AI, farmers may be able to quickly identify diseased plants, potentially saving their crops before they inflict irreparable damage.
 
 The dataset and competition is from Kaggle: [Cassava Leaf Disease Classification](https://www.kaggle.com/competitions/cassava-leaf-disease-classification) 
+
+<br>
+
+### Table of Contents
+
+- [Model Architecture](https://github.com/jl-csar/Cassava-Leaf-Disease-Classification/blob/main/README.md#model-architecture)
+- [Results](https://github.com/jl-csar/Cassava-Leaf-Disease-Classification/blob/main/README.md#results)
+- [Notes](https://github.com/jl-csar/Cassava-Leaf-Disease-Classification/blob/main/README.md#notes)
+- [License](https://github.com/jl-csar/Cassava-Leaf-Disease-Classification/blob/main/README.md#license)
 
 <br>
 
@@ -58,4 +57,4 @@ This project is licensed under the [Apache License 2.0](https://www.apache.org/l
 
 The Apache License 2.0 is a permissive open-source license that allows you to use, modify, and distribute the software for any purpose, including commercial purposes, as long as you satisfy the conditions of the license.
 
-Copyright 2023 Julius Ceasar Dumaslan. All rights reserved.
+Copyright 2024 Julius Ceasar Dumaslan. All rights reserved.
